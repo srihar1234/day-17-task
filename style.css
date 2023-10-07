@@ -1,0 +1,48 @@
+
+body{
+    display:grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr) );
+    column-gap: 10rem;
+    row-gap: 5rem;
+}
+.container{
+    padding:0px;
+    margin-left:10px;
+    display: grid;
+}
+.card{
+    width:100%;
+    height:600px;
+   
+}
+.card-header{
+    background-color: black;
+}
+.text-center{
+    margin-bottom: 0px;
+    text-align: center;
+    padding:12px;
+    color: azure;
+    background-color: black;
+    font-size: 20px;
+}
+.card-body{
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bolder;
+    color:white;
+}
+.card-img-top{
+    width:auto;
+    height: auto;
+    padding-bottom: 5px;
+}
+.card-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
